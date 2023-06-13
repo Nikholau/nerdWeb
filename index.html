@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <title>NerdWeb</title>
     <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/components.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,6 +20,8 @@
     <link href="https://fonts.cdnfonts.com/css/archer-book" rel="stylesheet" />
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   </head>
   <body>
     <header>
@@ -38,6 +44,7 @@
           </a>
         </div>
       </div>
+
       <div class="dark-blue">
         <div class="left">
           <span>SITES</span>
@@ -55,12 +62,16 @@
 
     <img class="banner" src="assets/banner.png" alt="banner">
 
-    <section>
+    <section class="discover-services">
       <div class="left">
-        <p>Descubra os serviços Nerdweb que mais combinam com a sua empresa</p>
+        <span>Descubra os serviços Nerdweb </span>
+        <p>que mais combinam com a sua empresa</p>
         <button>VER SERVIÇOS</button>
       </div>
-      <div class="right">
+      <div class="line">
+<hr/>
+      </div>
+      <div class="service-container right">
         <div class="service-card">
           <img src="assets/alt_route_black_24dp.svg" alt="title">
           <h6>Título</h6>
@@ -79,10 +90,22 @@
       </div>
     </section>
 
-    <section>
-      <p>Conheça todos</p>
-      <p>Produtos Nerdweb</p>
-      <button>VER TODOS PRODUTOS</button>
+    <section class="know-products">
+      <span class="products">Conheça todos <p>produtos Nerdweb</p></span>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="assets/LAPTOP-1.png" alt="Laptop 1">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/PHONE-1.png" alt="Phone 1">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/SHOP-1.png" alt="Shop 1">
+          </div>
+        </div>
+      </div>
+      <button class="btn">VER TODOS PRODUTOS</button>
     </section>
 
     <section class="register">
@@ -91,7 +114,7 @@
       <button>CADASTRE-SE</button>
     </section>
 
-    <section>
+    <section class="selection-services">
       <h2>Seleção de Serviços</h2>
       <span>Conheça nossa seleção especial</span>
 
@@ -186,18 +209,6 @@
       </ul>
       
       <hr />
-      
-      <div class="left">
-        <span>2022 Nerdweb - Extreme Hosting, todos os direitos reservados.</span>
-      </div>
-      <div class="right">
-        Fique em sintonia com a gente
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-linkedin-in"></i>
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-youtube"></i>
-      </div>
       
       
     </footer>

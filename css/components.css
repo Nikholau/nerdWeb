@@ -1,0 +1,14 @@
+button {
+  background: var(--unnamed-color-71d8ff) 0% 0% no-repeat padding-box;
+  background: #71d8ff 0% 0% no-repeat padding-box;
+  border: 1px solid #71d8ff;
+  opacity: 1;
+  text-align: center;
+  font: normal normal medium 15px/20px "Roboto Slab";
+  letter-spacing: 0px;
+  color: #000;
+  opacity: 1;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+}

@@ -1,0 +1,88 @@
+header .white {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 10%;
+}
+
+header .white .left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+header .white .right {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: flex-end;
+}
+
+header .white .right span {
+  text-align: right;
+  font: normal normal bold 12px/15px ArcherPro;
+  letter-spacing: 0.18px;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+header .white .left span {
+  color: #2c3a2f;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+header .white .left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+header .white .right span {
+  text-align: left;
+  font: normal bold 12px/15px "ArcherPro", sans-serif;
+  letter-spacing: 0.18px;
+  color: #000;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+header .dark-blue {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #033244;
+  padding: 1% 10%;
+}
+
+header .dark-blue .left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+header .dark-blue .left span {
+  text-align: left;
+  font: normal normal normal 14px/16px ArcherPro;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+header .dark-blue .right input[type="text"] {
+  background: #033244 0% 0% no-repeat padding-box;
+  border: 1px solid #00aeef;
+  border-radius: 8px;
+  opacity: 1;
+  color: #b2eaff;
+  text-align: left;
+  font: normal normal normal 14px/16px "ArcherPro", sans-serif;
+  letter-spacing: 0px;
+  opacity: 0.5;
+  height: 2rem;
+}

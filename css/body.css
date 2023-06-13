@@ -1,0 +1,124 @@
+.banner {
+  width: 100%;
+  height: auto;
+}
+
+.know-products {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.products {
+  text-align: left;
+  font: normal normal 900 32px/43px Roboto Slab;
+  letter-spacing: 0px;
+  color: #033244;
+}
+
+.products p {
+  font: normal normal 900 32px/43px Roboto Slab;
+  letter-spacing: 0px;
+  color: #00aeef;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font: normal normal 900 14px/19px Roboto Slab;
+  letter-spacing: 0px;
+  color: #033244;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.discover-services .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  width: 30%;
+}
+
+.discover-services span {
+  text-align: left;
+  font: normal normal 900 32px/38px Roboto Slab;
+  letter-spacing: 0px;
+  color: #033244;
+}
+
+.discover-services p {
+  text-align: left;
+  font: normal normal 900 32px/38px Roboto Slab;
+  letter-spacing: 0px;
+  color: #00aeef;
+}
+
+.line {
+  width: 10%;
+}
+
+section .discover-services .right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+}
+
+.discover-services {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* padding: 1% 10%; */
+}
+
+.service-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch; /* Estica verticalmente */
+  width: 60%;
+}
+
+.service-card {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 1px 3px 10px #00000014;
+  opacity: 1;
+  text-align: center;
+  padding: 5% 2%;
+  width: calc(33.33% - 2%);
+  margin: 1%;
+  align-self: stretch; /* Estica verticalmente */
+}
+
+.service-card img,
+.service-card h6,
+.service-card span {
+  margin-bottom: 1rem;
+}
+
+.service-card img {
+  width: 50%;
+}
+
+.service-card h6 {
+  text-align: center;
+  font: normal normal 900 14px/19px "Roboto Slab";
+  letter-spacing: 0px;
+  color: #033244;
+  opacity: 1;
+}
+
+.service-card span {
+  text-align: center;
+  font: normal normal 400 12px/16px "Roboto Slab";
+  letter-spacing: 0px;
+  color: #033244;
+  opacity: 1;
+}
+
+section .right {
+  width: 100%;
+  /* padding: 0 15%; */
+}
